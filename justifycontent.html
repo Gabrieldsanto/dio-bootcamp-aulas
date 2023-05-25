@@ -5,8 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos Justify Content </title>
+    <style>
+        .container{
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0;
+        display: flex;   
+    
+    }
+
+    .item{
+        background-color: blueviolet;
+        margin: 5px;
+        text-align: center;
+        color: white;
+    
+    }
+
+    .flex-star{
+        justify-content: flex-start;
+    }
+
+    .flex-end{
+        justify-content: flex-end;
+    }
+
+    .flex-center{
+        justify-content: center;
+    }
+    .spacebetween{
+        justify-content: space-between;
+    }
+
+    .spacearound{
+        justify-content: space-around;
+    }
+
+    .column{
+        flex-direction: column;
+        min-height: 200px;
+    }
+    </style>
 </head>
 <body>
+
+    <h2>Flex-star</h2>
+    <section class="container flex-star">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <h2>Flex-end</h2>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <h2>Center</h2>
+    <section class="container flex-center" >
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <h2>Space-beetween</h2>
+    <section class="container spacebetween">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <h2>Space-around</h2>
+    <section class="container spacearound">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+    
+    <h2>Flex-star (column)</h2>
+    <section class="container flex-star column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+    
+    <h2>Flex-end (column)</h2>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <h2>Center (column)</h2>
+    <section class="container flex-center column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+    
+
+    <h2>Space-beetween(column)</h2>
+    <section class="container spacebetween column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+
+    <h2>Space-around(column)</h2>
+    <section class="container spacearound column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </section>
+    
     
 </body>
 </html>
