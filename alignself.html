@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos -Align-self</title>
+
+    <style>
+
+            .flex-container{
+                display: flex;
+                border: 1px solid black;
+                max-width: 350px;
+                margin:5px;
+            }
+
+            .item{
+                background-color: brown;
+                color: white;
+                font-size: 24px;
+                text-align: center;
+                margin: 5px;
+
+            }
+
+            .align-container{
+                align-items: center;
+            }
+
+            .center{
+                align-self: center;
+            }
+            
+            .auto{
+                align-self: auto;
+            }
+
+            .flex-start{
+                align-self: flex-start;
+            }
+
+            .flex-end{
+                align-self: flex-end;
+            }
+
+            .baseline{
+                align-self: baseline;
+            }
+
+            .stretch{
+                align-self: stretch;
+            }
+
+            .direction{
+                flex-direction: column;
+            }
+
+
+            
+    </style>
+</head>
+<body>
+        <p>Center</p>
+    <div class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item center">123</div>
+        <div class="item center">Lorem Ipsum is therefore always friq</div>
+        <div class="item center">Item 4</div>
+        
+    </div>
+
+    <p>Flex-star</p>
+    <div class="flex-container">
+        <div class="item flex-start">AAA</div>
+        <div class="item flex-start">123</div>
+        <div class="item flex-start">Lorem Ipsum is therefore always friq</div>
+        <div class="item flex-start">Item 4</div>
+        
+    </div>
+
+    <p>Flex-end</p>
+    <div class="flex-container">
+        <div class="item flex-end">AAA</div>
+        <div class="item flex-end">123</div>
+        <div class="item flex-end">Lorem Ipsum is therefore always friq</div>
+        <div class="item flex-end">Item 4</div>
+    </div>
+
+
+    <p>Baseline</p>
+    <div class="flex-container">
+        <div class="item baseline">AAA</div>
+        <div class="item baseline">123</div>
+        <div class="item baseline">Lorem Ipsum is therefore always friq</div>
+        <div class="item baseline">Item 4</div>
+        
+    </div>
+
+
+    <p>Stretch</p>
+    <div class="flex-container">
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">123</div>
+        <div class="item stretch">Lorem Ipsum is therefore always friq</div>
+        <div class="item stretch">Item 4</div>
+        
+    </div>
+
+
+    <p>Auto</p>
+    <div class="flex-container align-containercenter">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum is therefore always friq</div>
+        <div class="item auto">Item 4</div>
+        
+    </div>
+
+
+    <h2>Colunas</h2>
+
+
+    <p>Center</p>
+    <div class="flex-container direction">
+        <div class="item center">AAA</div>
+        <div class="item center">123</div>
+        <div class="item center">Lorem Ipsum is therefore always friq</div>
+        <div class="item center">Item 4</div>
+        
+    </div>
+
+    <p>Flex-star</p>
+    <div class="flex-container direction">
+        <div class="item flex-start">AAA</div>
+        <div class="item flex-start">123</div>
+        <div class="item flex-start">Lorem Ipsum is therefore always friq</div>
+        <div class="item flex-start">Item 4</div>
+        
+    </div>
+
+    <p>Flex-end</p>
+    <div class="flex-container direction">
+        <div class="item flex-end">AAA</div>
+        <div class="item flex-end">123</div>
+        <div class="item flex-end">Lorem Ipsum is therefore always friq</div>
+        <div class="item flex-end">Item 4</div>
+    </div>
+
+
+    <p>Baseline</p>
+    <div class="flex-container direction">
+        <div class="item baseline">AAA</div>
+        <div class="item baseline">123</div>
+        <div class="item baseline">Lorem Ipsum is therefore always friq</div>
+        <div class="item baseline">Item 4</div>
+        
+    </div>
+
+
+    <p>Stretch</p>
+    <div class="flex-container direction">
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">123</div>
+        <div class="item stretch">Lorem Ipsum is therefore always friq</div>
+        <div class="item stretch">Item 4</div>
+        
+    </div>
+
+
+    <p>Auto</p>
+    <div class="flex-container align-containercenter direction">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum is therefore always friq</div>
+        <div class="item auto">Item 4</div>
+        
+    </div>
+
+
+    
+
+   
+    
+    
+</body>
+</html>
